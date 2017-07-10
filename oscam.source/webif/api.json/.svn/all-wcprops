@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oscam/!svn/ver/9680/trunk/webif/api.json
+END
+cacheexbit.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/oscam/!svn/ver/9598/trunk/webif/api.json/cacheexbit.json
+END
+cacheex.json
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oscam/!svn/ver/9598/trunk/webif/api.json/cacheex.json
+END
+readerbit.json
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/oscam/!svn/ver/9671/trunk/webif/api.json/readerbit.json
+END
+reader.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oscam/!svn/ver/9570/trunk/webif/api.json/reader.json
+END
+status.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oscam/!svn/ver/9680/trunk/webif/api.json/status.json
+END
+header.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oscam/!svn/ver/9570/trunk/webif/api.json/header.json
+END
+status_statusbits.json
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oscam/!svn/ver/9659/trunk/webif/api.json/status_statusbits.json
+END
+userbit.json
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oscam/!svn/ver/9570/trunk/webif/api.json/userbit.json
+END
+footer.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oscam/!svn/ver/9570/trunk/webif/api.json/footer.json
+END
+user.json
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/oscam/!svn/ver/9570/trunk/webif/api.json/user.json
+END

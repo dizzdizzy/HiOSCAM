@@ -1,0 +1,29 @@
+# oscam.user generated automatically by Streamboard OSCAM 1.20. SVN r8934
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.user.txt
+
+[account]
+user                          = dvbapi
+keepalive                     = 0
+au                            = 1
+betatunnel                    = 1833.FFFF:1702,1834.FFFF:1722
+group                         = 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+
+[account]
+user                          = sky1
+pwd                           = sky1
+keepalive                     = 0
+allowedprotocols              = newcamd,cccam
+group                         = 1
+
+[account]
+user                          = sky2
+pwd                           = sky2
+allowedprotocols              = newcamd,cccam
+group                         = 1
+
+[account]
+user                          = mysky
+pwd                           = mysky
+allowedprotocols              = newcamd,cccam
+group                         = 1
+

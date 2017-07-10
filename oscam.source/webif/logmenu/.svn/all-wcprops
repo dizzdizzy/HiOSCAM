@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oscam/!svn/ver/9218/trunk/webif/logmenu
+END
+log_clearlog.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/oscam/!svn/ver/9218/trunk/webif/logmenu/log_clearlog.html
+END
+log_filterform.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/oscam/!svn/ver/9218/trunk/webif/logmenu/log_filterform.html
+END
+log_disablelogmenu.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oscam/!svn/ver/9218/trunk/webif/logmenu/log_disablelogmenu.html
+END
+log_logmenuonoff.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oscam/!svn/ver/9218/trunk/webif/logmenu/log_logmenuonoff.html
+END

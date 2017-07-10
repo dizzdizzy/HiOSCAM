@@ -1,0 +1,57 @@
+[reader]
+label                         = myslot
+protocol                      = internal
+device                        = /dev/hi_sci
+boxid                         = 01234567
+boxkey                        = 0000000000000000
+rsakey                        = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+detect                        = cd
+mhz                           = 9600
+cardmhz                       = 320
+aeskeys                       = 0500@030B00:0,A79AC0DBEC9C9251D1915F058862AF26,EF3CB8D36A862097A33FC47101041BE30,0,0,0,0,0,0,0,0,0,9A3EAB0203EBFFCA85B4F18280749F56;0500@032820:B10E2276555C127361818CE2B9F1E7D4,B10E2276555C127361818CE2B9F1E7D4,B10E2276555C127361818CE2B9F1E7D4
+group                         = 1
+
+[reader]
+label                         = myconstcw
+enable                        = 0
+protocol                      = constcw
+device                        = constant.cw
+caid                          = 2600
+group                         = 4
+audisabled                    = 1
+
+[reader]
+label                         = myxcas
+enable                        = 0
+protocol                      = xcas
+device                        = oscam.keys
+caid                          = 0500,2600
+ident                         = 0100:000085,000084,000030;0500:021110,007400,007800,023800,030B00,021120,020810,020820,023B00,022610;1800:007301,001101,00C102,004701,004601,009501,007311,00C001,002C01,002D01,004B11,00C101;0D03:0D03A0,0D0308,0D0304;0D05:0D0510,0D0504;0D00:0D0030,0D0020
+group                         = 5
+audisabled                    = 1
+
+[reader]
+label                         = mynewcamd
+enable                        = 0
+protocol                      = newcamd
+device                        = 192.168.0.123,8863
+key                           = 0102030405060708091011121314
+user                          = user
+password                      = passwd
+connectoninit                 = 1
+fallback                      = 1
+group                         = 6
+audisabled                    = 1
+
+[reader]
+label                         = mycccam
+enable                        = 0
+protocol                      = cccam
+device                        = 192.168.0.123,8864
+user                          = user
+password                      = passwd
+inactivitytimeout             = 30
+group                         = 7
+cccversion                    = 2.3.0
+ccckeepalive                  = 1
+

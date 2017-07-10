@@ -1,0 +1,20 @@
+110310
+
+# 2011年 03月 10日 星期四 00:08:18 CST
+English version:
+This following directory is a toolchians distributions.
+1.All executable files are statically compiled ,in other words,Since there isn't necessary to care that local Library whether it is different from toolchains building ones. This new one would be more compatible.
+2.It enabled multilib,so that user could build different binary files depending on whice flags of the compiler user choose completely.
+3.This version is enabled glibc-2.11.1 C library.
+4.It provide a detailed information for version.
+5.Cross debug tool arm-hisiv200-linux-gnueabi-gdb is new added!
+
+Chinese version:.
+本目录是工具链的发布目录：
+这个工具链具有以下新特性：
+1.所有的可执行文件静态编译，工具链与本地库解耦，具有更好的兼容性。
+2.使能multilib，发布同一套编译器，通过用户不同的选项，生成不同的二进制文件。
+3.本版本提支持glibc-2.11.1
+4.提供了更加详细的version信息。
+5.新增交叉调试工具arm-hisiv200-linux-gnueabi-gdb。
+
