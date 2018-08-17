@@ -14,13 +14,13 @@ export HISDK_LIBRARY=$OSCAM_PATH/u5sdk/lib
 
 export PATH=$ANDROID_TOOLCHAIN:$HISILICON_TOOLCHAIN:$PATH:
 
-cd oscam.source
+cd oscam.source <---- this no longer used, instead use oscam.svn
 echo $PATH
 gcc --version
 make clean
 make android-arm-hisky -j16 \
 		 HISKY_LIB="-L$HISDK_LIBRARY -lhi_msp -lhi_common" \
-		 HISKY_FLAGS="-D__ARMEL__ -I$HISDK_INCLUDE -DWITH_HISILICON=1 -DSDKV600 -DSDKV660 -DSDK3798C" \
+		 HISKY_FLAGS="-D__ARMEL__ -I$HISDK_INCLUDE -DWITH_HISILICON=1 -DSDKV600 -DSDKV660 -DSDK3798C" \  <---- this command doesn´t do anything
 
 
 SVN_REVISION=`./config.sh --oscam-revision`
@@ -29,6 +29,6 @@ echo
 
 echo $RELEASE_PATH.........
 mkdir -p $RELEASE_PATH
-cp -af Distribution/oscam-1.20.sky.$SVN_REVISION $RELEASE_PATH/oscam-1.20
+cp -af Distribution/oscam-1.20.sky.$SVN_REVISION $RELEASE_PATH/oscam-1.20 <---- this only copy and paste and old OSCAM build from the distribution folder
 cp -af Distribution/skybox/* $RELEASE_PATH/.
 echo
